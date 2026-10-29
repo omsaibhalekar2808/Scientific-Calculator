@@ -643,4 +643,6 @@ TOOLS = {
     "conv": t_conv, "matrix": t_matrix, "vector": t_vector,
 }
 
-app.run(debug=False, host="127.0.0.1", port=5000)
+
+if __name__ == "__main__":
+    app.run(debug=False, host="127.0.0.1", port=5000)
